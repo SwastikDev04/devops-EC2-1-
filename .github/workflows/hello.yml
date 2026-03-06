@@ -6,5 +6,11 @@ jobs :
   greet:
     runs-on: ubuntu-latest
     steps:
-      - name: Say hello
-        run: echo "Hi"
+      - name: build
+        run: echo "This is build"
+
+      - name: test
+        run: echo "This is test"
+
+      - name : deploy
+        run: echo 'This is deploy'
